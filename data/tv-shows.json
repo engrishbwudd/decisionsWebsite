@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Severance",
+        "genre": ["Sci-Fi", "Drama", "Thriller"],
+        "length": "1hr"
+    },
+    {
+        "title": "Atlanta",
+        "genre": ["Comedy", "Drama"],
+        "length": "30min"
+    },
+    {
+        "title": "30 Rock",
+        "genre": ["Comedy"],
+        "length": "30min"
+    },
+    {
+        "title": "Los Espookys",
+        "genre": ["Comedy", "Horror"],
+        "length": "30min"
+    },
+    {
+        "title": "Pen15",
+        "genre": ["Comedy", "Drama"],
+        "length": "30min"
+    },
+    {
+        "title": "Castlevania",
+        "genre": ["Animation", "Fantasy", "Action"],
+        "length": "30min"
+    },
+    {
+        "title": "The Last of Us",
+        "genre": ["Drama", "Horror", "Adventure"],
+        "length": "1hr"
+    },
+    {
+        "title": "The OA",
+        "genre": ["Sci-Fi", "Drama", "Mystery"],
+        "length": "1hr"
+    },
+    {
+        "title": "Erased",
+        "genre": ["Anime", "Thriller", "Mystery"],
+        "length": "30min"
+    },
+    {
+        "title": "Last Man on Earth",
+        "genre": ["Comedy", "Sci-Fi"],
+        "length": "30min"
+    },
+    {
+        "title": "Game of Thrones",
+        "genre": ["Fantasy", "Drama", "Action"],
+        "length": "1hr"
+    },
+    {
+        "title": "The Magicians",
+        "genre": ["Fantasy", "Drama"],
+        "length": "1hr"
+    },
+    {
+        "title": "On Cinema",
+        "genre": ["Comedy", "Satire"],
+        "length": "30min"
+    },
+    {
+        "title": "Saiki K",
+        "genre": ["Anime", "Comedy", "Supernatural"],
+        "length": "30min"
+    },
+    {
+        "title": "BoJack Horseman",
+        "genre": ["Animation", "Comedy", "Drama"],
+        "length": "30min"
+    },
+    {
+        "title": "Devilman Crybaby",
+        "genre": ["Anime", "Horror", "Action"],
+        "length": "30min"
+    },
+    {
+        "title": "My Hero Academia",
+        "genre": ["Anime", "Action", "Fantasy"],
+        "length": "30min"
+    },
+    {
+        "title": "The Rehearsal",
+        "genre": ["Comedy", "Docufiction"],
+        "length": "30min"
+    },
+    {
+        "title": "Peep Show",
+        "genre": ["Comedy"],
+        "length": "30min"
+    },
+    {
+        "title": "Cunk on Earth",
+        "genre": ["Comedy", "Documentary"],
+        "length": "30min"
+    },
+    {
+        "title": "Cunk on Life",
+        "genre": ["Comedy", "Documentary"],
+        "length": "30min"
+    },
+    {
+        "title": "Veep",
+        "genre": ["Comedy", "Political Satire"],
+        "length": "30min"
+    },
+    {
+        "title": "It's Always Sunny in Philadelphia",
+        "genre": ["Comedy"],
+        "length": "30min"
+    },
+    {
+        "title": "The Trip",
+        "genre": ["Comedy", "Drama"],
+        "length": "30min"
+    },
+    {
+        "title": "The Thick of It",
+        "genre": ["Comedy", "Political Satire"],
+        "length": "30min"
+    },
+    {
+        "title": "Detroiters",
+        "genre": ["Comedy"],
+        "length": "30min"
+    },
+    {
+        "title": "Succession",
+        "genre": ["Drama", "Satire"],
+        "length": "1hr"
+    },
+    {
+        "title": "The Bear",
+        "genre": ["Drama", "Comedy"],
+        "length": "30min"
+    }
+]

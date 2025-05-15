@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Everything Everywhere All At Once",
+        "genre": ["Sci-Fi", "Action", "Comedy"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "I, Tonya",
+        "genre": ["Biography", "Drama", "Comedy"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Midsommar",
+        "genre": ["Horror", "Drama"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "The Favourite",
+        "genre": ["Period", "Drama", "Comedy"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Roma",
+        "genre": ["Drama"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "A Quiet Place Part II",
+        "genre": ["Horror", "Thriller"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Eighth Grade",
+        "genre": ["Drama", "Comedy"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "The Florida Project",
+        "genre": ["Drama"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Moonlight",
+        "genre": ["Drama"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "The Lobster",
+        "genre": ["Sci-Fi", "Dark Comedy"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Climax",
+        "genre": ["Drama", "Horror", "Experimental"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Us",
+        "genre": ["Horror", "Thriller"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Suspiria (1977)",
+        "genre": ["Horror"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Suspiria (2018)",
+        "genre": ["Horror", "Drama"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Coherence",
+        "genre": ["Sci-Fi", "Thriller"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Okja",
+        "genre": ["Adventure", "Drama", "Sci-Fi"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Poor Things",
+        "genre": ["Fantasy", "Drama", "Comedy"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Dogtooth",
+        "genre": ["Drama", "Thriller"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "The Killing of a Sacred Deer",
+        "genre": ["Psychological Thriller", "Horror"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Nope",
+        "genre": ["Horror", "Sci-Fi"],
+        "length": "2+ hrs"
+    },
+    {
+        "title": "Marcel the Shell with Shoes On",
+        "genre": ["Animation", "Comedy", "Drama"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Safety Not Guaranteed",
+        "genre": ["Comedy", "Sci-Fi", "Romance"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Freddy Got Fingered",
+        "genre": ["Comedy"],
+        "length": "1-2 hrs"
+    },
+    {
+        "title": "Cart Of Darkness",
+        "genre": ["Documentary"],
+        "length": "1-2 hrs"
+    }
+]

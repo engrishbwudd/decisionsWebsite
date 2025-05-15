@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Movie</h1>
+        <form id="add-movie-form">
+            <input type="text" id="title" placeholder="Movie Title" required>
+            <div class="genre-selection">
+                <h3>Genre(s):</h3>
+                <label><input type="checkbox" name="genre" value="Action"> Action</label>
+                <label><input type="checkbox" name="genre" value="Comedy"> Comedy</label>
+                <label><input type="checkbox" name="genre" value="Drama"> Drama</label>
+                <label><input type="checkbox" name="genre" value="Horror"> Horror</label>
+                <label><input type="checkbox" name="genre" value="Sci-Fi"> Sci-Fi</label>
+                <label><input type="checkbox" name="genre" value="Thriller"> Thriller</label>
+                <label><input type="checkbox" name="genre" value="Romance"> Romance</label>
+                <label><input type="checkbox" name="genre" value="Animation"> Animation</label>
+                <label><input type="checkbox" name="genre" value="Documentary"> Documentary</label>
+                <label><input type="checkbox" name="genre" value="Fantasy"> Fantasy</label>
+                <label><input type="checkbox" name="genre" value="Period"> Period</label>
+                <label><input type="checkbox" name="genre" value="Biography"> Biography</label>
+                <label><input type="checkbox" name="genre" value="Adventure"> Adventure</label>
+                <label><input type="checkbox" name="genre" value="Experimental"> Experimental</label>
+                <label><input type="checkbox" name="genre" value="Dark Comedy"> Dark Comedy</label>
+                <label><input type="checkbox" name="genre" value="Psychological Thriller"> Psychological Thriller</label>
+            </div>
+            <select id="length" required>
+                <option value="">Select Length</option>
+                <option value="1-2hrs">1-2 hours</option>
+                <option value="2+hrs">2+ hours</option>
+            </select>
+            <button type="submit">Add Movie</button>
+            <button type="button" onclick="window.location.href='movies.html';">Back to Movies</button>
+        </form>
+    </div>
+    <script src="add-movie.js"></script>
+</body>
+</html>

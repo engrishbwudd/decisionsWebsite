@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Movie</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pick a Movie</h1>
+        
+        <div class="prompt-form">
+            <a href="add-movie.html" class="add-new-btn">Add New Movie</a>
+            <form id="movieForm">
+                <div class="form-group">
+                    <label for="genre">Genre:</label>
+                    <select class="prompt-select" id="genre" name="genre">
+                        <option value="">Any genre</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="length">Length:</label>
+                    <select class="prompt-select" id="length" name="length">
+                        <option value="">Any length</option>
+                        <option value="1-2 hrs">1-2 hrs</option>
+                        <option value="2+ hrs">2+ hrs</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Get Suggestion</button>
+            </form>
+        </div>
+        
+        <div id="result" class="result-display" style="display: none;">
+            <h3>Your Movie:</h3>
+            <p id="movieTitle"></p>
+        </div>
+        
+        <a href="add-movie.html" class="submit-btn">Add New Movie</a>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+    
+    <script src="js/movies-embedded.js"></script>
+</body>
+</html>

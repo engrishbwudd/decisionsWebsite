@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sexy Times</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sexy Times</h1>
+        
+        <div class="prompt-form">
+            <a href="add-sexy.html" class="add-new-btn">Add New Sexy Time</a>
+            <form id="sexyForm">
+                <div class="form-group">
+                    <label for="intensity">Intensity:</label>
+                    <select class="prompt-select" id="intensity" name="intensity" required>
+                        <option value="">Select intensity</option>
+                        <option value="sweet">Sweet</option>
+                        <option value="spicy">Spicy</option>
+                        <option value="unhinged">Unhinged</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="focus">Focus:</label>
+                    <select class="prompt-select" id="focus" name="focus" required>
+                        <option value="">Select focus</option>
+                        <option value="zach">Zach</option>
+                        <option value="chloe">Chloe</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Toys:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="toys" value="vibrator"> Vibrator</label>
+                        <label><input type="checkbox" name="toys" value="anal-beads"> Anal beads</label>
+                        <label><input type="checkbox" name="toys" value="butt-plug"> Butt plug</label>
+                        <label><input type="checkbox" name="toys" value="whip"> Whip</label>
+                        <label><input type="checkbox" name="toys" value="fleshlight"> Fleshlight</label>
+                        <label><input type="checkbox" name="toys" value="cuffs"> Cuffs</label>
+                        <label><input type="checkbox" name="toys" value="blindfold"> Blindfold</label>
+                        <label><input type="checkbox" name="toys" value="nipple-clamps"> Nipple clamps</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">Get Suggestion</button>
+            </form>
+        </div>
+        
+        <div id="result" class="result-display" style="display: none;">
+            <h3>Your Suggestion:</h3>
+            <p id="sexyActivity"></p>
+        </div>
+        
+        <a href="add-sexy.html" class="submit-btn">Add New Activity</a>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+    
+    <script src="js/sexy-embedded.js"></script>
+</body>
+</html>

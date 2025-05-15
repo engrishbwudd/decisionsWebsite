@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a TV Show</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pick a TV Show</h1>
+        
+        <div class="prompt-form">
+            <a href="add-tv.html" class="add-new-btn">Add New TV Show</a>
+            <form id="tvForm">
+                <div class="form-group">
+                    <label for="genre">Genre:</label>
+                    <select class="prompt-select" id="genre" name="genre">
+                        <option value="">Any genre</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="length">Episode Length:</label>
+                    <select class="prompt-select" id="length" name="length">
+                        <option value="">Any length</option>
+                        <option value="30min">30 minutes</option>
+                        <option value="1hr">1 hour</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Get Suggestion</button>
+            </form>
+        </div>
+        
+        <div id="result" class="result-display" style="display: none;">
+            <h3>Your TV Show:</h3>
+            <p id="showTitle"></p>
+        </div>
+        
+        <div class="error-message" style="display: none;"></div>
+        
+        <a href="add-tv.html" class="submit-btn">Add New TV Show</a>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+    
+    <script src="js/tv-embedded.js"></script>
+</body>
+</html>

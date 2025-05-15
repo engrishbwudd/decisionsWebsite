@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Genre Extraction</title>
+</head>
+<body>
+    <h1>Genre Extraction Test</h1>
+    <div id="movie-genres"></div>
+    <div id="tv-genres"></div>
+    
+    <script>
+        async function testGenres() {
+            try {
+                const moviesResponse = await fetch('data/movies.json');
+                const tvResponse = await fetch('data/shows.json');
+                
+                const movies = await moviesResponse.json();
+                const tvShows = await tvResponse.json();
+                
+                // Extract movie genres
+                const movieGenres = new Set();
+                movies.forEach(movie => {
+                    if (Array.isArray(movie.genre)) {
+                        movie.genre.forEach(g => movieGenres.add(g));
+                    }
+                });
+                
+                // Extract TV genres
+                const tvGenres = new Set();
+                tvShows.forEach(show => {
+                    if (Array.isArray(show.genre)) {
+                        show.genre.forEach(g => tvGenres.add(g));
+                    }
+                });
+                
+                document.getElementById('movie-genres').innerHTML = `
+                    <h2>Movie Genres (${movieGenres.size}):</h2>
+                    <ul>${[...movieGenres].sort().map(g => `<li>${g}</li>`).join('')}</ul>
+                `;
+                
+                document.getElementById('tv-genres').innerHTML = `
+                    <h2>TV Genres (${tvGenres.size}):</h2>
+                    <ul>${[...tvGenres].sort().map(g => `<li>${g}</li>`).join('')}</ul>
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.body.innerHTML += `<p>Error: ${error.message}</p>`;
+            }
+        }
+        
+        testGenres();
+    </script>
+</body>
+</html>
+</script>
+</body>
+</html>

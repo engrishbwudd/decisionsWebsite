@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Data Loading</title>
+</head>
+<body>
+    <h1>Data Loading Test</h1>
+    <div id="output"></div>
+    
+    <script>
+        async function testDataLoading() {
+            const output = document.getElementById('output');
+            
+            try {
+                // Test different paths
+                const tests = [
+                    'data/shows.json',
+                    'data/tv-shows.json',
+                    'data/movies.json'
+                ];
+                
+                for (const path of tests) {
+                    try {
+                        const response = await fetch(path);
+                        output.innerHTML += `<p>${path}: ${response.status} ${response.ok ? '✓' : '✗'}</p>`;
+                        
+                        if (response.ok) {
+                            const data = await response.json();
+                            output.innerHTML += `<p>  - Loaded ${data.length} items</p>`;
+                        }
+                    } catch (error) {
+                        output.innerHTML += `<p>${path}: ERROR - ${error.message}</p>`;
+                    }
+                }
+            } catch (error) {
+                output.innerHTML += `<p>General Error: ${error.message}</p>`;
+            }
+        }
+        
+        testDataLoading();
+    </script>
+</body>
+</html>

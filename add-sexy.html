@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Sexy Time Activity</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Sexy Time Activity</h1>
+        <form id="add-sexy-form">
+            <input type="text" id="activity" placeholder="Activity Name" required>
+            <select id="intensity" required>
+                <option value="">Select Intensity</option>
+                <option value="Sweet">Sweet</option>
+                <option value="Spicy">Spicy</option>
+                <option value="Unhinged">Unhinged</option>
+            </select>
+            <select id="focus" required>
+                <option value="">Select Focus</option>
+                <option value="Zach">Zach</option>
+                <option value="Chloe">Chloe</option>
+                <option value="Both">Both</option>
+            </select>
+            <div class="toy-selection">
+                <h3>Toys (optional):</h3>
+                <label><input type="checkbox" name="toys" value="Vibrator"> Vibrator</label>
+                <label><input type="checkbox" name="toys" value="Anal beads"> Anal beads</label>
+                <label><input type="checkbox" name="toys" value="Butt plug"> Butt plug</label>
+                <label><input type="checkbox" name="toys" value="Whip"> Whip</label>
+                <label><input type="checkbox" name="toys" value="Fleshlight"> Fleshlight</label>
+                <label><input type="checkbox" name="toys" value="Cuffs"> Cuffs</label>
+                <label><input type="checkbox" name="toys" value="Blindfold"> Blindfold</label>
+                <label><input type="checkbox" name="toys" value="Nipple clamps"> Nipple clamps</label>
+            </div>
+            <button type="submit">Add Activity</button>
+            <button type="button" onclick="window.location.href='sexy.html';">Back to Sexy Times</button>
+        </form>
+    </div>
+    <script src="add-sexy.js"></script>
+</body>
+</html>

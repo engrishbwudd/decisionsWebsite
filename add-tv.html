@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add TV Show</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New TV Show</h1>
+        <form id="add-tv-form">
+            <input type="text" id="title" placeholder="TV Show Title" required>
+            <div class="genre-selection">
+                <h3>Genre(s):</h3>
+                <label><input type="checkbox" name="genre" value="Comedy"> Comedy</label>
+                <label><input type="checkbox" name="genre" value="Drama"> Drama</label>
+                <label><input type="checkbox" name="genre" value="Sci-Fi"> Sci-Fi</label>
+                <label><input type="checkbox" name="genre" value="Action"> Action</label>
+                <label><input type="checkbox" name="genre" value="Horror"> Horror</label>
+                <label><input type="checkbox" name="genre" value="Animation"> Animation</label>
+                <label><input type="checkbox" name="genre" value="Fantasy"> Fantasy</label>
+                <label><input type="checkbox" name="genre" value="Mystery"> Mystery</label>
+                <label><input type="checkbox" name="genre" value="Thriller"> Thriller</label>
+                <label><input type="checkbox" name="genre" value="Adventure"> Adventure</label>
+                <label><input type="checkbox" name="genre" value="Anime"> Anime</label>
+                <label><input type="checkbox" name="genre" value="Documentary"> Documentary</label>
+                <label><input type="checkbox" name="genre" value="Variety"> Variety</label>
+                <label><input type="checkbox" name="genre" value="Satire"> Satire</label>
+                <label><input type="checkbox" name="genre" value="Political Satire"> Political Satire</label>
+                <label><input type="checkbox" name="genre" value="Supernatural"> Supernatural</label>
+                <label><input type="checkbox" name="genre" value="Docufiction"> Docufiction</label>
+            </div>
+            <select id="length" required>
+                <option value="">Select Length</option>
+                <option value="30min">30 minutes</option>
+                <option value="1hr">1 hour</option>
+                <option value="1hr+">1+ hours</option>
+            </select>
+            <button type="submit">Add TV Show</button>
+            <button type="button" onclick="window.location.href='tv.html';">Back to TV Shows</button>
+        </form>
+    </div>
+    <script src="add-tv.js"></script>
+</body>
+</html>

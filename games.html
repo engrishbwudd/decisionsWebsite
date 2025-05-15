@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Video Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Video Game</h1>
+        
+        <a href="add-game.html" class="add-new-btn">Add New Game</a>
+        <div id="result" class="result-display">
+            <h3>You should play:</h3>
+            <p id="gameTitle"></p>
+        </div>
+        
+        <button onclick="pickNewGame()" class="submit-btn">Pick Another</button>
+        
+        <a href="add-game.html" class="submit-btn">Add New Game</a>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+    
+    <script src="js/games-embedded.js"></script>
+</body>
+</html>
